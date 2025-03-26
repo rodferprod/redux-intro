@@ -29,7 +29,7 @@ export default function customerReducer(
 	}
 }
 
-export function customerCreate(fullName, nationalID) {
+export function createCustomer(fullName, nationalID) {
 	return {
 		type: CUSTOMER_CREATE,
 		payload: {
